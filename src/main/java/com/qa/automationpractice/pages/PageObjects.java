@@ -50,6 +50,7 @@ public class PageObjects extends Base {
 		methods.validateText(driver, carttext, "3");
 		return methods.validateText(driver, carttext, "3");
 		
+		
 		}
 	
 

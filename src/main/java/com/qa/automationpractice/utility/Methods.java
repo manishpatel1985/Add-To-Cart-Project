@@ -7,12 +7,18 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 
 import com.qa.automationpractice.base.Base;
 
 public class Methods extends Base {
 	
 	Actions actions ;
+	
+	public void getTitle(String pagetitle) {
+		String Title=driver.getTitle();
+		Assert.assertEquals(Title, pagetitle);
+	}
 	
 	public void performeMouseHower(WebElement element , WebDriver driver) {
 		actions=new Actions(driver);
