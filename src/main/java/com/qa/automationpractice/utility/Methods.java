@@ -1,6 +1,11 @@
 package com.qa.automationpractice.utility;
 
 
+/*
+ * This is the methods page
+ * 
+ */
+
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
