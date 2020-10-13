@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CrossBrowserTestSuite" parallel="tests">
+
+  <test  name="ChromeBrowserTest">
+  
+  <parameter name="browser" value="chrome"/>
+  <classes>
+  
+  <class name ="com.qa.automationpractice.test.VerifyPageTitle"/>
+  
+  </classes>
+  
+  </test> 
+  
+   <test  name="IEdriver">
+   
+  <parameter name="browser" value="IE"/>
+  
+  <classes>
+  
+  <class name ="com.qa.automationpractice.test.VerifyPageTitle"/>
+  
+  </classes>
+  
+  </test>
+  
+  
+  
+  
+  <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation Practice Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.automationpractice.utility.ExtentReport"/>
+  </listeners>
+  <test thread-count="5" name="SmokeTest(failed)">
+    <classes>
+      <class name="com.qa.automationpractice.test.AddToCartTest">
+        <methods>
+          <include name="setUP"/>
+          <include name="validateAddToCart"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.automationpractice.test.AddToCartTest -->
+    </classes>
+  </test> <!-- SmokeTest(failed) -->
+</suite> <!-- Failed suite [Automation Practice Suite] -->

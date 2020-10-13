@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Automation Practice(failed)">
+    <classes>
+      <class name="com.qa.automationpractice.test.AddToCartTest">
+        <methods>
+          <include name="setUP"/>
+          <include name="validateAddToCart"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.automationpractice.test.AddToCartTest -->
+    </classes>
+  </test> <!-- Automation Practice(failed) -->
+</suite> <!-- Failed suite [Suite] -->
