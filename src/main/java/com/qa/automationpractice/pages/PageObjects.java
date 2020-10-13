@@ -36,6 +36,9 @@ public class PageObjects extends Base {
 	@FindBy(xpath="//div[@class='shopping_cart']//span[@class='ajax_cart_quantity'][contains(text(),'3')]")
 	WebElement carttext;
 	
+	@FindBy(xpath="//div[@class='shopping_cart']//span[@class='ajax_cart_quantity'][contains(text(),'3')]")
+	WebElement carttoaddtext;
+	
 	
 	
 	public boolean validateAddToCart() {
